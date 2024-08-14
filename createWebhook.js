@@ -15,7 +15,7 @@ const readAddressesFromFile = (filePath) => {
 const createWebhook = async (addresses) => {
   const url = "https://api.helius.xyz/v0/webhooks?api-key=9a0a2acf-471e-4fc0-9ebd-0624001668c1";
   const payload = {
-    webhookURL: `https://webhook.site/b5823812-8c4c-44bd-9749-37c8d03cb31f`,
+    webhookURL: `https://webhook.site/(input token id)`,
     transactionTypes: ["TRANSFER"],
     accountAddresses: addresses,
     webhookType: "enhanced",  // or "enhancedDevnet"
