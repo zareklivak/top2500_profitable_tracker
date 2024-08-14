@@ -15,8 +15,8 @@ try {
 }
 
 // Constants and Configuration
-const url = 'https://webhook.site/token/4e175012-6caa-47fb-81ab-14a969cee430/requests';
-const apiKey = '2a1d86d3-d794-4eba-b057-6c496424a64e';
+const url = 'https://webhook.site/token//requests';
+const apiKey = '';
 
 // Global Variables
 let coinStats = new Map();
